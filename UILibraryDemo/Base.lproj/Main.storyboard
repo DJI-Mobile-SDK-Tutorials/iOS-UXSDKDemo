@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JhJ-IO-CjI">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Default Layout View Controller-->
+        <scene sceneID="Wif-ry-ldc">
+            <objects>
+                <viewController id="JhJ-IO-CjI" customClass="DefaultLayoutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MV4-m5-haC"/>
+                        <viewControllerLayoutGuide type="bottom" id="m3d-cu-DiW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hah-kK-YdD">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eAQ-0f-Ojp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-222" y="-212"/>
+        </scene>
+    </scenes>
+</document>
