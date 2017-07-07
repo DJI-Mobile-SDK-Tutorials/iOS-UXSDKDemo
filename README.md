@@ -8,8 +8,8 @@ This UILibraryDemo is design for you to gain a basic understanding of the DJI iO
 
  - iOS 9.0+
  - Xcode 8.0+
- - DJI iOS SDK 4.2
- - DJI iOS UI Library 4.1.1
+ - DJI iOS SDK 4.2.2
+ - DJI iOS UI Library 4.2
 
 ## SDK and UI Library Installation with CocoaPods
 
@@ -38,8 +38,8 @@ If you install it successfully, you should get the messages similar to the follo
 ~~~
 Analyzing dependencies
 Downloading dependencies
-Installing DJI-SDK-iOS (4.2)
-Installing DJI-UILibrary-iOS (4.1.1)
+Installing DJI-SDK-iOS (4.2.2)
+Installing DJI-UILibrary-iOS (4.2)
 Generating Pods project
 Integrating client project
 
