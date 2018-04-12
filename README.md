@@ -1,17 +1,17 @@
-# iOS-UILibraryDemo
+# iOS-UXSDKDemo
 
 ## Introduction
 
-This UILibraryDemo is design for you to gain a basic understanding of the DJI iOS UI Library. You will learn how to use DJI iOS UI Library and DJI iOS SDK to create a fully functioning mini-DJI Go app easily, with standard DJI Go UIs and functionalities. 
+This UXSDKDemo is design for you to gain a basic understanding of the DJI iOS UX SDK. You will learn how to use DJI iOS UX SDK and DJI iOS SDK to create a fully functioning mini-DJI Go app easily, with standard DJI Go UIs and functionalities. 
 
 ## Requirements
 
  - iOS 9.0+
  - Xcode 8.0+
- - DJI iOS SDK 4.4
- - DJI iOS UI Library 4.4
+ - DJI iOS SDK 4.5
+ - DJI iOS UX SDK 4.5
 
-## SDK and UI Library Installation with CocoaPods
+## SDK and UX SDK Installation with CocoaPods
 
 Since this project has been integrated with [DJI iOS SDK CocoaPods](https://cocoapods.org/pods/DJI-SDK-iOS) now, please check the following steps to install **DJISDK.framework** using CocoaPods after you downloading this project:
 
@@ -39,11 +39,11 @@ If you install it successfully, you should get the messages similar to the follo
 Analyzing dependencies
 Downloading dependencies
 Installing DJI-SDK-iOS (4.4)
-Installing DJI-UILibrary-iOS (4.4)
+Installing DJI-UXSDK-iOS (4.4)
 Generating Pods project
 Integrating client project
 
-[!] Please close any current Xcode sessions and use `UILibraryDemo.xcworkspace` for this project from now on.
+[!] Please close any current Xcode sessions and use `UXSDKDemo.xcworkspace` for this project from now on.
 Pod installation complete! There is 1 dependency from the Podfile and 1 total pod
 installed.
 ~~~
@@ -57,7 +57,7 @@ installed.
 
 ## Tutorial
 
-For this demo's tutorial: **Getting Started with DJI UI Library**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/UILibraryDemo.html>.
+For this demo's tutorial: **Getting Started with DJI UX SDK**, please refer to <https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/UXSDKDemo.html>.
 
 ## Feedback
 
@@ -72,7 +72,7 @@ Please use **Github Issue** or **email** [oliver.ou@dji.com](oliver.ou@dji.com) 
 
 ## License
 
-iOS-UILibraryDemo is available under the MIT license. Please see the LICENSE file for more info.
+iOS-UXSDKDemo is available under the MIT license. Please see the LICENSE file for more info.
 
 
 ## Join Us
