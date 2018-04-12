@@ -38,8 +38,8 @@ If you install it successfully, you should get the messages similar to the follo
 ~~~
 Analyzing dependencies
 Downloading dependencies
-Installing DJI-SDK-iOS (4.4)
-Installing DJI-UXSDK-iOS (4.4)
+Installing DJI-SDK-iOS (4.5)
+Installing DJI-UXSDK-iOS (4.5)
 Generating Pods project
 Integrating client project
 
