@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		846E0B4FC2F578E788222EC7 /* libPods-UXSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7935459FF9A7FE618D3ACB0 /* libPods-UXSDKDemo.a */; };
 		A452DC652070DCFC00EFBA30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A452DC5A2070DCFC00EFBA30 /* AppDelegate.m */; };
 		A452DC662070DCFC00EFBA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A452DC5B2070DCFC00EFBA30 /* Assets.xcassets */; };
 		A452DC672070DCFC00EFBA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A452DC5C2070DCFC00EFBA30 /* LaunchScreen.storyboard */; };
 		A452DC682070DCFC00EFBA30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A452DC5E2070DCFC00EFBA30 /* Main.storyboard */; };
 		A452DC692070DCFC00EFBA30 /* DefaultLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A452DC612070DCFC00EFBA30 /* DefaultLayoutViewController.m */; };
-		A452DC6A2070DCFC00EFBA30 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A452DC622070DCFC00EFBA30 /* Info.plist */; };
 		A452DC6B2070DCFC00EFBA30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A452DC632070DCFC00EFBA30 /* main.m */; };
+		D92DBBDBAD7B2D1C00AD8260 /* Pods_UXSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8509A3A7F523BFAB6D92D3F0 /* Pods_UXSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		16373B93F3B2A7A34B129AF2 /* Pods-UXSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UXSDKDemo/Pods-UXSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8509A3A7F523BFAB6D92D3F0 /* Pods_UXSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A452DC592070DCFC00EFBA30 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A452DC5A2070DCFC00EFBA30 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A452DC5B2070DCFC00EFBA30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,6 @@
 		A452DC632070DCFC00EFBA30 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A48847C51EA2697F00CE5843 /* UXSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UXSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB16A4C55C695EDAF8E55327 /* Pods-UXSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UXSDKDemo/Pods-UXSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		F7935459FF9A7FE618D3ACB0 /* libPods-UXSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UXSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846E0B4FC2F578E788222EC7 /* libPods-UXSDKDemo.a in Frameworks */,
+				D92DBBDBAD7B2D1C00AD8260 /* Pods_UXSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +69,7 @@
 		26FD7018B7700DA45E0BD5F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7935459FF9A7FE618D3ACB0 /* libPods-UXSDKDemo.a */,
+				8509A3A7F523BFAB6D92D3F0 /* Pods_UXSDKDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,7 +179,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A452DC6A2070DCFC00EFBA30 /* Info.plist in Resources */,
 				A452DC682070DCFC00EFBA30 /* Main.storyboard in Resources */,
 				A452DC662070DCFC00EFBA30 /* Assets.xcassets in Resources */,
 				A452DC672070DCFC00EFBA30 /* LaunchScreen.storyboard in Resources */,
@@ -374,7 +372,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/UXSDKDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -402,7 +400,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/UXSDKDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
