@@ -10,7 +10,7 @@ This UXSDKDemo is design for you to gain a basic understanding of the DJI iOS UX
  - Xcode 8.0+
  - DJI iOS SDK 4.13
  - DJI iOS UX SDK 4.13
- - DJIWidget 1.6.2
+ - DJIWidget 1.6.3
 
 ## SDK, UX SDK and DJIWidget Installation with CocoaPods
 
@@ -41,7 +41,7 @@ Analyzing dependencies
 Downloading dependencies
 Installing DJI-SDK-iOS (4.13)
 Installing DJI-UXSDK-iOS (4.13)
-Installing DJIWidget (1.6.2)
+Installing DJIWidget (1.6.3)
 Generating Pods project
 Integrating client project
 
